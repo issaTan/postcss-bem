@@ -1,6 +1,6 @@
-# PostCSS Bem [![Build Status][ci-img]][ci]
+# Next PostCSS Bem [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin implementing BEM as at-rules.
+[NextPostCSS] plugin implementing BEM as at-rules.
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/ileri/postcss-bem.svg
@@ -71,7 +71,7 @@
 ## Usage
 
 ```js
-postcss([ require('postcss-bem')({
+postcss([ require('next-postcss-bem')({
     defaultNamespace: undefined, // default namespace to use, none by default
     style: 'suit' // suit or bem, suit by default
 }) ])
