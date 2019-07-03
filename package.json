@@ -1,22 +1,27 @@
 {
-    "name": "postcss-bem",
-    "version": "0.3.0",
+    "name": "next-postcss-bem",
+    "version": "1.0.0",
     "description": "PostCSS plugin implementing BEM as at-rules",
-    "keywords": ["postcss", "css", "postcss-plugin", "bem"],
-    "author": "Malte-Maurice Dreyer <dreyer.maltem+dev@gmail.com>",
+    "keywords": [
+        "postcss",
+        "css",
+        "postcss-plugin",
+        "bem"
+    ],
+    "author": "Issa Tan<issatan.1990@gmail.com>",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url":  "https://github.com/ileri/postcss-bem.git"
+        "url": "https://github.com/issaTan/postcss-bem.git"
     },
     "dependencies": {
-        "postcss": "^4.1.9"
+        "postcss": "^7.0.17"
     },
     "devDependencies": {
-        "gulp-eslint": "^0.12.0",
-        "gulp-mocha":  "^2.0.1",
-        "chai":        "^2.3.0",
-        "gulp":        "^3.8.11"
+        "chai": "^4.2.0",
+        "gulp": "^4.0.2",
+        "gulp-eslint": "^6.0.0",
+        "gulp-mocha": "^6.0.0"
     },
     "scripts": {
         "test": "gulp"
